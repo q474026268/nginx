@@ -4,7 +4,7 @@
 
 
 
-#### **安装** **pcre** **依赖**
+##### **安装** **pcre** **依赖**
 
 **第一步 联网下载** **pcre** **压缩文件依赖**
 
@@ -42,13 +42,13 @@
 
 
 
-#### 查看开放的端口号
+##### 查看开放的端口号
 
 **firewall-cmd --list-all**
 
 
 
-#### 设置开放的端口号
+##### 设置开放的端口号
 
 **firewall-cmd --add-service=http –permanent**
 
@@ -56,6 +56,18 @@
 
 
 
-#### 重启防火墙
+##### 重启防火墙
 
 **firewall-cmd –reload**
+
+
+
+
+
+#### **Nginx** **的常用的命令**
+
+- **进入** **nginx** **目录中**  **cd /usr/local/nginx/sbin**
+- **查看** **nginx** **版本号** **./nginx -v**
+- **启动** **nginx ./nginx**
+- **停止nginx  ./nginx -s stop**
+- **重新加载 nginx  ./nginx -s reload**
